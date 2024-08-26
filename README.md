@@ -36,7 +36,7 @@
 
 
 ## Contact
-Created by [@thomami244] - feel free to contact me!
+Created by @thomami244 - feel free to contact me!
 
 
 <!-- Optional -->
