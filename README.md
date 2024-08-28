@@ -7,25 +7,19 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- This project analyzes the factors affecting bike rentals for BoomBikes in order to provide insights that can help the company optimize operations post-pandemic.
+- The business problem focuses on predicting bike demand and understanding how different factors (like season, weather conditions, etc.) impact the number of bikes rented.
+- The dataset used includes features such as date, season, year, month, holiday, weekday, working day, weather situation, temperature, humidity, and bike rental counts (casual, registered, and total).
+  
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- The model explains approximately 77% of the variance in bike rentals (R-squared = 0.770), with a slightly higher test R-squared of 0.782, indicating strong predictive performance.
+-Seasonal Effect: Spring has the most negative impact on bike rentals, while the winter season also shows a significant decrease in demand.
+- Yearly Growth: The year 2021 (yr_1) shows a significant positive effect on bike rentals, suggesting an increase in demand over time.
+- Weather Impact: Adverse weather conditions, such as light snow or rain and mist/cloudy weather, significantly reduce bike rentals.
+- Other Factors: Working days and certain weekdays (like Saturday) positively impact the number of rentals, reflecting higher demand on these days.
 
 
 ## Technologies Used
@@ -37,10 +31,3 @@
 
 ## Contact
 Created by @thomami244 - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
